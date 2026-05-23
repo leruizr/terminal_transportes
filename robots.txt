@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Bloquear panel administrativo
+Disallow: /terminal_completo/app/admin.php
+Disallow: /terminal_completo/app/login.php
+Disallow: /terminal_completo/app/includes/
+
+Sitemap: http://localhost:8888/terminal_completo/sitemap.xml

@@ -1,0 +1,27 @@
+# Variables de entorno y credenciales
+.env
+.env.local
+.env.*.local
+
+# Archivos de configuración local
+config.local.php
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Composer (por si en el futuro se usa)
+/vendor/
+composer.lock
+
+# Archivos temporales de PHP
+*.cache
