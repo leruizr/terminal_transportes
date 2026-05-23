@@ -112,6 +112,7 @@ terminal_completo/
 ├── css/styles.css      # Estilos + media query responsive
 ├── database/schema.sql # Script de BD + datos iniciales
 ├── documentacion/      # Anexos del proyecto
+├── sustentacion/       # Video y presentación PowerPoint de la sustentación final
 ├── img/                # Imágenes
 ├── js/script.js        # JS del buscador
 ├── robots.txt          # Reglas para motores de búsqueda
@@ -132,6 +133,15 @@ terminal_completo/
 - Metaetiquetas (`description`, `keywords`, Open Graph, Twitter Card) configurables por página desde `app/includes/header.php`.
 - Diseño responsive con media query (`@media (max-width: 768px)`) en `css/styles.css`.
 - `robots.txt` y `sitemap.xml` en la raíz del proyecto. El panel admin está excluido del rastreo.
+
+---
+
+## Sustentación
+
+La carpeta `sustentacion/` contiene los materiales finales del proyecto:
+
+- **Video de sustentación** — grabación con la presentación del proyecto y la demostración de su funcionamiento.
+- **Presentación PowerPoint** — diapositivas usadas como guion durante la sustentación.
 
 ---
 
