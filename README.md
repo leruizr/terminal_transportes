@@ -1,25 +1,36 @@
-# Terminal de Transportes - Medellín
+# Terminal de Transportes
 
-Sistema web para gestión y consulta de rutas de transporte intermunicipal desde Medellín. Desarrollado con PHP + MySQL sobre AppServ.
+Sistema web para la gestión y consulta de rutas de transporte terrestre intermunicipal. Desarrollado con PHP + MySQL sobre AppServ.
+
+**Repositorio:** https://github.com/leruizr/terminal_transportes.git
 
 ---
 
 ## Requisitos
 
 - **AppServ** (Apache + PHP + MySQL + phpMyAdmin) instalado y en ejecución
+- **Git** instalado (solo si se obtiene el proyecto clonando el repositorio)
 - Navegador moderno
 
 ---
 
 ## Instalación
 
-### 1. Ubicar el proyecto
+### 1. Obtener el proyecto
 
-Copiar la carpeta del proyecto en la ruta de AppServ:
+Tienes dos formas de obtener el proyecto. En ambos casos debe quedar en `C:\AppServ\www\terminal_completo`.
 
+**Opción A — Clonar el repositorio (recomendado)**
+
+Abrir una terminal en `C:\AppServ\www\` y ejecutar:
+
+```bash
+git clone https://github.com/leruizr/terminal_transportes.git terminal_completo
 ```
-C:\AppServ\www\terminal_completo
-```
+
+**Opción B — Descargar ZIP**
+
+Entrar al repositorio, presionar **Code → Download ZIP**, descomprimir y copiar la carpeta resultante a `C:\AppServ\www\terminal_completo`.
 
 ### 2. Crear la base de datos
 
@@ -29,7 +40,7 @@ Esto crea la base de datos `terminal_transportes` con todas las tablas y datos i
 
 ### 3. Configurar credenciales
 
-Las credenciales NO están en el código fuente, se manejan con un archivo `.env` (excluido de git).
+Las credenciales NO están en el código fuente, se manejan con un archivo `.env` (excluido del repositorio mediante `.gitignore`). Por eso, al clonar o descargar el proyecto este archivo **no existe** y hay que crearlo:
 
 1. En la raíz del proyecto, copiar `.env.example` y renombrar la copia a `.env`.
 2. Editar `.env` con tus datos de MySQL:
